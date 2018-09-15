@@ -1,0 +1,81 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Book Worms</string>
+
+    <string name="book_format_unknown">Unknown</string>
+    <string name="book_format_ebook">E-Book</string>
+    <string name="book_format_print">Print</string>
+    <string name="book_format_audio">Audio</string>
+
+    <string name="is_fiction_true">Yes</string>
+    <string name="is_fiction_false">No</string>
+    <string name="save_book">Save</string>
+    <string name="empty_books_table">Delete All</string>
+    <string name="delete_book">Remove</string>
+    <string name="add_book_activity_title">Add a Book</string>
+    <string name="edit_book_activity_title">Edit Book Info</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_empty_books_table">Remove all books</string>
+
+    <string name="book_info">Please provide the book information</string>
+    <string name="book_isbn_info">Please provide the book ISBN</string>
+    <string name="book_name_info">Please provide the book name</string>
+    <string name="book_price_info">Please provide the book price</string>
+    <string name="book_quantity_info">Please provide the book quantity</string>
+    <string name="book_supplierName_info">Please provide the book supplier</string>
+    <string name="book_supplierPhone_info">Please provide the supplier 10 digit phone number</string>
+    <string name="book_genre_info">Please provide the book genre</string>
+    <string name="book_isFiction_info">Please indicate if the book is a fiction</string>
+    <string name="book_format_info">Please provide the book format</string>
+
+    <string name="book_supplier">Supplier Name:</string>
+    <string name="book_supplier_num">Supplier Number</string>
+    <string name="book_format">Book Format:</string>
+    <string name="book_genre">Book Genre:</string>
+    <string name="book_isfiction">Is fiction?</string>
+
+    <string name="hint_isbn">ISBN: 1234567890</string>
+    <string name="hint_book_name">Name: The Pilgrim Progress</string>
+    <string name="hint_book_price">Price: 30.95</string>
+    <string name="hint_book_quantity">Quantity: 15</string>
+    <string name="hint_book_supplier">Supplier: Christians Books</string>
+    <string name="hint_book_supplier_num">Supplier #: 789&#8211;789&#8211;7896</string>
+    <string name="hint_book_genre">Genre: Religious</string>
+
+    <string name="empty_title_text">Your book collection is empty.</string>
+    <string name="empty_subtitle_text">Hey bookworm! &#8211; add some books!</string>
+    <string name="empty_book">Empty book. this indicates no records were found.</string>
+
+    <string name="dummy_data_price">20.99</string>
+    <string name="dummy_data_quantity">10</string>
+    <string name="dummy_data_supplier">Christians Books</string>
+    <string name="dummy_data_supplier_num">321&#8211;456&#8211;7896</string>
+    <string name="dummy_data_genre">Religious</string>
+    <string name="dummy_data_book_name">The Holy Bible</string>
+    <string name="dummy_data_format">2</string>
+    <string name="dummy_data_isFiction">0</string>
+
+    <string name="sale_button_lbl">SALE</string>
+    <string name="order_button_lbl">ORDER</string>
+    <string name="book_name_lbl">Title: <xliff:g example="My Book" id="name">%s</xliff:g></string>
+    <string name="book_price_lbl">Price: $<xliff:g example="2.99" id="price">%1$.2f</xliff:g></string>
+    <string name="book_quantity_lbl"><xliff:g example="2" id="quantity">%d</xliff:g> in Stock</string>
+    <string name="book_format_lbl">Format: <xliff:g example="Print" id="format">%s</xliff:g></string>
+    <string name="book_genre_lbl">Genre: <xliff:g example="Religious" id="genre">%s</xliff:g></string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_book_successful">Book deleted</string>
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+    <string name="delete_dialog_msg">Delete this book?</string>
+    <string name="error_inserting_book">Error inserting book</string>
+    <string name="success_inserting_book">Book inserted</string>
+
+    <string name="error_updating_book">Error updating book</string>
+    <string name="success_updating_book">Book updated</string>
+    <string name="zero_quantity">You can not have less than zero quantity</string>
+    <string name="quantity_lbl">Quantity of books in stock</string>
+    <string name="plus">Increase</string>
+    <string name="minus">Decrease</string>
+</resources>
